@@ -1,4 +1,10 @@
 {
+  "applications": {
+    "gecko": {
+      "id": "urlclassifier@fmarier.org"
+    }
+  },
+
   "description": "A prototype using the URL Classifier",
   "manifest_version": 2,
   "name": "URL Classifier Prototype",
@@ -9,6 +15,7 @@
   },
   "browser_action": {},
   "permissions": [
-    "https://*/*"
+    "https://*/*",
+    "storage"
   ]
 }
